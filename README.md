@@ -2,7 +2,7 @@
 
 ## SUMMARY
 
-This project details the installation and the programming of the Microsoft Kinect using Libfreekinect, OpenNI, NITE as well as PyOpenNI on an ubuntu-15.10 system. 
+This project details the installation and the programming of the Microsoft Kinect using Libfreenect, OpenNI, NITE as well as PyOpenNI on an ubuntu-15.10 system. 
 
 ## Installation
 
@@ -14,3 +14,17 @@ The installation of all the files was done on a clean install of ubuntu-15.10. T
 
 **mkdir ~/kinect**  
 **cd ~/kinect** 
+
+**git clone https://github.com/OpenKinect/libfreenect**    
+**git clone https://github.com/OpenNI/OpenNI**    
+**git clone https://github.com/avin2/SensorKinect**
+
+### Installing Libfreenect***  
+***cd ~/kinect/libfreenect***  
+***mkdir build***  
+***cd build***  
+***cmake ..***  
+***make***  
+***sudo make install***  
+***sudo ldconfig /usr/local/lib64/***
+
