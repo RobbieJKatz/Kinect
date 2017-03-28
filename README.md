@@ -15,4 +15,4 @@ sudo apt-get install git-core cmake python-dev python-numpy freeglut3-dev pkg-co
 
 mkdir ~/kinect
 
-**cd ~/kinect **
+**cd ~/kinect** 
