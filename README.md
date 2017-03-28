@@ -14,4 +14,5 @@ sudo apt-get update
 sudo apt-get install git-core cmake python-dev python-numpy freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev libusb-1.0-0-dev libgtk2.0-dev doxygen graphviz
 
 mkdir ~/kinect
-*cd ~/kinect *
+
+**cd ~/kinect **
