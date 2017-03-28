@@ -63,7 +63,7 @@ In each replace the appropriate line to **<vendor="PrimeSense" key="0KOIk2JeIBYC
 
 **./install.sh**  
 **niLicense PrimeSense 0KOIk2JeIBYClPWVnMoRKn5cdY4=**  
-** niLicense -l**
+**niLicense -l**
 
 can try to interchange those instructions…
 
@@ -71,5 +71,20 @@ Now check that the rest of the examples from OpenNI work (~/kinect/OpenNI/Platfo
 It is possible to edit these files and the compile them by going to ~/kinect/OpenNI/Platform/Linux/Build and running **make** which compiles the files to the ~/kinect/OpenNI/Platform/Linux/Bin/x64-Release folder. But who wants to do that when you can code in Python? 
 
 ### Installing PyOpenNI
+**git clone https://github.com/jmendeth/PyOpenNI.git**  
+**cd PyOpenNI**  
+**mkdir build**   
+**cd build**  
+**cmake ..**  
+**make**  
+**sudo cp ./lib/openni.so /usr/lib/python2.7/**
 
- 
+Now the examples in PyOpenNi and you can program in glorious python good luck!
+
+
+## Credits
+
+The websites I gathered the instructions from:
+
+https://sigmaoctantis.wordpress.com/2015/07/07/kinect-installation-in-ubuntu-14-10/  
+http://www.etti.tuiasi.ro/cin/Courses/SistEmbedded/Projects/Linux/BeagleBoard/Kinect_on_Ubuntu/Kinect_on_Ubuntu.html
