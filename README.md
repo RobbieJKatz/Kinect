@@ -71,6 +71,8 @@ Now check that the rest of the examples from OpenNI work (~/kinect/OpenNI/Platfo
 It is possible to edit these files and the compile them by going to ~/kinect/OpenNI/Platform/Linux/Build and running **make** which compiles the files to the ~/kinect/OpenNI/Platform/Linux/Bin/x64-Release folder. But who wants to do that when you can code in Python? 
 
 ### Installing PyOpenNI
+**sudo apt-get install cmake build-essential git-core \
+                     python-dev libboost-python-dev**  
 **git clone https://github.com/jmendeth/PyOpenNI.git**  
 **cd PyOpenNI**  
 **mkdir build**   
